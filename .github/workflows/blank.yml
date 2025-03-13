@@ -38,5 +38,5 @@ jobs:
           echo test, and deploy your project.
       - name: List files in repo
         run: |
-          echo "The ${github.repository} contains these files:"
+          echo "The ${{ github.repository }} contains these files:"
           tree
